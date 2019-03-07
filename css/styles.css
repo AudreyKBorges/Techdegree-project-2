@@ -73,7 +73,6 @@ nav li {
     background-color: white;
     padding-top: 10px;
     padding-bottom: 10px;
-    float: center;
 }
 
 .main-nav {
@@ -113,8 +112,9 @@ nav li {
 }
 
 .mobile-link {
-    display: inline-block;
+    display: block;
     margin-top: 20px;
+    float: right;
 }
 
 /* ---- Layout Containers ---- */
@@ -154,9 +154,8 @@ Media Queries
         }
 
           .wrapper {
-              width: 70%
               max-width: 1000px;
-              margin: 0, auto;
+              margin: 0 auto;
           }
 
           .main-nav {
@@ -196,10 +195,11 @@ Media Queries
               max-width: 50%;
               margin: auto;
               display: inline-block;
+              float: right;
             }
 
           .col p {
-              padding: 0 30px 10px;
+              padding: 0 20px 10px;
           }
 
           .contact {
