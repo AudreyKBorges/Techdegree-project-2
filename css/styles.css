@@ -6,7 +6,7 @@
 body {
     font-family: 'PT Sans', sans-serif;
     line-height: 1.6;
-    background-color: magenta;
+    background-color: #c1aac0;
     text-align: center;
     width: 70%;
     margin: 0 auto;
@@ -51,7 +51,7 @@ p {
 
 a {
     text-decoration: none;
-    color: black;
+    color: #963f89;
 }
 
 footer {
@@ -82,7 +82,7 @@ nav li {
     padding: 10px;
     text-align: center;
     font-size: 20px;
-    display: block;
+    display: inline-block;
 }
 
 .main-nav a:hover {
@@ -138,7 +138,7 @@ nav li {
     padding-bottom: 20px;
     padding-left: 10px;
     padding-right: 10px;
-    background-color: #fff;
+    background-color: #efefef;
     max-width: 768px;
     display: inline-block;
 }
@@ -149,9 +149,9 @@ Media Queries
 
       @media (min-width: 768px) {
 
-          .wrap {
-              min-height: 100vh;
-          }
+        .wrap {
+            min-height: 100vh;
+        }
 
           .wrapper {
               width: 70%
@@ -194,7 +194,6 @@ Media Queries
 
           .col {
               max-width: 50%;
-              float: right;
               margin: auto;
               display: inline-block;
             }
