@@ -143,6 +143,19 @@ nav li {
     display: inline-block;
 }
 
+.skills {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #efefef;
+    max-width: 768px;
+    display: block;
+    align-items: center;
+    margin: inherit;
+
+}
+
 /* ==========================================================================
 Media Queries
    ========================================================================== */
@@ -276,6 +289,10 @@ Media Queries
            margin: auto;
            padding-bottom: 10px;
          }
+
+        .skills {
+            max-width: 1024px;
+        }
 
    }
 
